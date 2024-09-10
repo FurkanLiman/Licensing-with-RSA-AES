@@ -1,0 +1,118 @@
+﻿@model LicenseApplication.Models.LicensePlans
+@addTagHelper *, Microsoft.AspNetCore.Mvc.Taghelpers
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+
+    <link rel="stylesheet" href="/fonts/icomoon/style.css">
+
+    <link rel="stylesheet" href="/css/owl.carousel.min.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    <!-- Style -->
+    <link rel="stylesheet" href="~/css/style.css">
+
+    <title>Website Menu #3</title>
+</head>
+<body class="hero img-fluid" style="background-image: url('https://images.pexels.com/photos/39389/keyboard-key-success-online-39389.jpeg');">
+
+
+
+
+
+
+    <header class="site-navbar " role="banner" style="margin-left:15%">
+
+        <div class="container">
+            <div class="row align-items-center">
+
+                <div class="col-11 col-xl-2">
+                    <h1 class="mb-0 site-logo"><a asp-action="Index" asp-controller="Home" class="text-white mb-0">Lisans Hizmetlerimiz</a></h1>
+                </div>
+                <div class="col-12 col-xs-1 col-md-10 d-xl-block">
+                    <nav class="site-navigation position-relative text-right" role="navigation">
+
+                        <ul class="site-menu js-clone-nav mr-auto d-none d-lg-block">
+                            <li class="active"><a asp-action="Index" asp-controller="Home"><span>Anasayfa</span></a></li>
+                            <li><a asp-action="Products" asp-controller="plan"><span>Lisans Planları</span></a></li>
+                            <li><a asp-action="Index" asp-controller="Aboutus"><span>Hakkımızda</span></a></li>
+                            <li><a asp-action="Index" asp-controller="Profile"><span><img style="max-height:30px" src="/profile.png" /><b> @User.Claims.ToList()[1].Value.ToString()</b></span></a></li>
+                            <li><a asp-action="Logout" asp-controller="Home"><span><img style="max-height:30px" src="/loguot.png" /><b>Çıkış Yap</b></span></a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+
+                <div class="d-inline-block d-xl-none ml-md-0 mr-auto py-3" style="position: relative; top: 3px;"><a href="#" class="site-menu-toggle js-menu-toggle text-white"><span class="icon-menu h3"></span></a></div>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+<main role="main" style="padding-top:10%">
+        @*<section class="vh-100" style="background-color:#DBCFBB;min-width:fit-content;max-height:fit-content">*@
+    <div class="container py-5 h-200" >
+        <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col col-xl-10">
+                <div class="card" style="border-radius: 1rem;">
+                    
+                    <div class="form-outline mb-4 border" style="border:medium;border-block:solid;border-color:darkgrey;border-radius:5px;padding:3% 3% 3% 3%">
+                            <h1><b>ORELTEK,</b></h1>
+                            <h5>Başta otomotiv elektroniği olmak üzere, akıllı tarım, endüstriyel elektronik, kontrol sistemleri, nesnelerin interneti(IoT) ve çeşitli yazılım teknolojileri ihtiyaçlarına çözüm üretmek amacı ile kurulmuştur.</h5>
+                            <h5>Elektronik kontrol alanında, gerek son kullanıcı, gerek araştırma geliştirme amaçlı pek çok alanda, esnek, güvenilir ve doğru ürünlere ihtiyaç bulunmaktadır. Bunlar taşıt gövde kontrol, hidrolik sistem kontrol, elektrikli araç motor kontrol ve sürüş destek sistemleri, endüstriyel kontrol kartları, kablosuz sistemler, IPTV vb. gibi çeşitli seviyelerde olmaktadır. Şirketimiz çalışanları bu alanlardaki geçmiş tecrübeleri ile bu alandaki ihtiyaçların tamamında beklentileri karşılamak üzere projeler üretmiş ve üretmeye devam etmektedir.</h5>
+                            <h5><b>MİSYONUMUZ: </b>Elektronik ve Yazılım alanındaki ihtiyaçlara yönelik üretilen çözümlerin öncelikle doğru, güvenilir, dayanıklı, çevreci, rekabetçi, katma değeri yüksek ve olabildiğince yerli imkânlar dahilinde,  en az kritik malzeme kullanarak gerçekleştirmektir.</h5>
+                            <h5><b>VİZYONUMUZ: </b>Ülke geleceğinde önemli bir kuruluş haline gelmek ve gelecek 10 yıl içerisinde alanında dünya markası olmak.</h5>
+                            <h3><a href="https://www.oreltek.com" target="_blank">Şirket Sayfamız</a></h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</main>
+
+  <footer class="text-muted">
+        <div class="container">
+            <p class="float-right">
+                <a href="#">Sayfa başına dön</a>
+            </p>
+            </div>
+    </footer>
+
+
+    @*</section>*@
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="../../assets/js/vendor/popper.min.js"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <script src="../../assets/js/vendor/holder.min.js"></script>
+</body>
+</html>
+
+@*
+DETAYLARA HOJGELDİN
+<form  method="get">
+    <h2>@Model.Id</h2>
+    <h2>@Model.Name</h2>
+    <h2>@Model.Brand</h2>
+    <h1> yorumlar</h1>
+    @foreach(var comments in Model.Comments)
+    {    
+    <h2>@comments</h2>
+    }
+</form>
+<form asp-action="planDetails" asp-controller="plan" method="post">
+    <input type="text" name="comment" placeholder="Yorumunuzu yazınız..."/>
+    <button name="id" value="@Model.Id" >Gönder</button>
+</form>*@

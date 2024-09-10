@@ -1,0 +1,279 @@
+﻿@*@model IEnumerable<LicenseApplication.Models.plan>*@
+@model List<LicenseApplication.Models.LicensePlans>
+
+<!doctype html>
+<html lang="en" >
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    
+    <!-- Style -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body class="hero img-fluid" style="background-image: url('https://images.pexels.com/photos/39389/keyboard-key-success-online-39389.jpeg');">
+
+
+
+    
+
+    <header class="site-navbar " role="banner" style="margin-left:15%">
+
+        <div class="container">
+            <div class="row align-items-center">
+
+                <div class="col-11 col-xl-2">
+                    <h1 class="mb-0 site-logo"><a asp-action="Index" asp-controller="Home" class="text-white mb-0">Lisans Hizmetlerimiz</a></h1>
+                </div>
+                <div class="col-12 col-xs-1 col-md-10 d-xl-block">
+                    <nav class="site-navigation position-relative text-right" role="navigation">
+
+                        <ul class="site-menu js-clone-nav mr-auto d-none d-lg-block">
+                            <li class="active"><a asp-action="Index" asp-controller="Home"><span>Anasayfa</span></a></li>
+                            <li><a asp-action="Products" asp-controller="plan"><span>Lisans</span></a></li>
+                            <li><a asp-action="Index" asp-controller="Aboutus"><span>Hakkımızda</span></a></li>
+                            <li><a asp-action="Index" asp-controller="Profile"><span><img style="max-height:30px" src="/profile.png" /><b> @User.Claims.ToList()[1].Value.ToString()</b></span></a></li>
+                            <li><a asp-action="Logout" asp-controller="Home"><span><img style="max-height:30px" src="/loguot.png" /><b>Çıkış Yap</b></span></a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+
+                <div class="d-inline-block d-xl-none ml-md-0 mr-auto py-3" style="position: relative; top: 3px;"><a href="#" class="site-menu-toggle js-menu-toggle text-white"><span class="icon-menu h3"></span></a></div>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <main role="main" style="padding-top:10%;border:medium;border-radius:10px" >
+        
+
+      
+
+        @*Plan ekleme*@
+        <div class="album py-5 bg-light" style="border-radius:0px;">
+            <div>
+            <h4>
+                <b>Merhabalar, </b>@User.Claims.ToList()[1].Value.ToString()
+            </h4>
+
+            <h3>@User.Claims.ToList()[0].Value.ToString()</h3>
+        </div>
+            <div class="container">
+                <div>
+                    <h5>Kullanıcı ekle.</h5>
+                </div>
+                <div class="row">
+                    <form asp-action="AdminUserAdd" asp-controller="Profile" method="post">
+
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Kullanıcı Adı</th>
+                                    <th scope="col">Kullanıcı Email</th>
+                                    <th scope="col">Kullanıcı Şifre</th>
+                                    <th scope="col">Admin=1, Normal = 0</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">
+                                        <input type="text" name="Name" class="form-control form-control-lg" />
+                                    </th>
+                                    <td>
+                                        <input type="text" name="Email" class="form-control form-control-lg" />
+                                    </td>
+                                    <td>
+                                        <input type="text" name="Password" class="form-control form-control-lg" />
+                                    </td>
+                                    <td>
+                                        <input type="text" name="Authority" class="form-control form-control-lg" />
+                                    </td>
+
+                                </tr>
+
+                            </tbody>
+                        </table>
+                        <div class="row mx-sm-3 mb-2">
+                            <div class="col-4">
+                                <button class="btn btn-primary col-4" >Kaydet</button>
+                            </div>
+                        </div>
+
+                    </form>
+
+
+                </div>
+            </div>
+            <div class="container" >
+                <div>
+                    <h5>Bu alandan Lisans Planı ekleyebilirsiniz.</h5>
+                </div>
+                <div class="row" >
+                    <form asp-action="AdminplanAdd" asp-controller="Profile" method="post">
+                    
+                    <table class="table">
+                    <thead>
+                    <tr>
+                    <th scope="col">Plan İsmi</th>
+                    <th scope="col">Plan Açıklaması</th>
+                    <th scope="col">Plan Ücreti</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                    <th scope="row">
+                        <input type="text" name="Name" class="form-control form-control-lg" />
+                    </th>
+                    <td>
+                        <input type="text" name="description" class="form-control form-control-lg" />
+                    </td>
+                    <td>
+                        <input type="text" name="price" class="form-control form-control-lg" />
+                    </td>
+                    
+
+                    </tr>
+                    
+                    </tbody>
+                    </table> 
+                        <div class="row mx-sm-3 mb-2">
+                            <div class="col-4">
+                                <button class="btn btn-primary col-4">Kaydet</button>
+                            </div>    
+                        </div>
+                        
+                    </form>
+
+
+                </div>
+            </div>
+        </div>
+        <div class="album py-5 bg-light" style="border-radius:0px;">
+            <div class="container">
+
+                <div class="row">
+
+                    @using (Html.BeginForm("UploadFile", "License", FormMethod.Post, new { enctype = "multipart/form-data" }))
+                    {
+                        <table class="table">
+                        <tr>
+                            <th scope="row">
+                                <input type="file" name="fileUpload" class="form-control form-control-lg" />
+                            </th>
+                            <td>
+                                <input type="text" name="username" placeholder="Müşteri Kullanıcı adını girin" class="form-control form-control-lg" />
+                            </td>
+                        </tr>
+                        </table>
+                            <div class="row mx-sm-3 mb-2">
+                                    <div class="col-4">
+                                        <button class="btn btn-primary col-4">Kaydet</button>
+                                    </div>
+                                </div>
+
+
+                    }
+                </div>
+            </div>
+        </div>
+        <div class="album py-5 bg-light" style="border-radius:0px;">
+            <div class="container">
+
+                <div class="row">
+                      <form asp-controller="License" asp-action="CreateNewPrimaryKeys" method="get">
+                        <button class="btn btn-primary col-4" type="submit">Yeni Primary Key Cifti Olustur.</button>
+                        </form>
+                </div>
+            </div>
+        </div>
+        @*Plan Sil*@
+        <div class="album py-5 bg-light" style="border-radius:0px;">
+            <div class="container">
+                
+                <div class="row">
+
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">id</th>
+                                <th scope="col">plan Name</th>
+                                <th scope="col">plan Brand</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <th scope="row">@item.LicensePlansId</th>
+                                    <td>@item.PlanName</td>
+                                    <td>@item.Description</td>
+
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                    <form asp-action="AdminPanel" asp-controller="Profile" method="post">
+                        <div class="row mx-sm-3 mb-2">
+                            <div class="col-8">
+                                <input type="text" name="Id" class="form-control form-control-lg col-8" placeholder="Silmek istediğiniz Planın Id'sini giriniz." />
+                            </div>
+                            <div class="col-4">
+                                <button  class="btn btn-primary col-4">Sil</button>
+                            </div>
+                        </div>
+
+                    </form>
+
+
+                </div>
+            </div>
+        </div>
+
+
+    </main>
+ 
+
+    <footer class="text-muted">
+        <div class="container">
+            <p class="float-right">
+                <a href="#">Sayfa başına dön</a>
+            </p>
+            </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="../../assets/js/vendor/popper.min.js"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <script src="../../assets/js/vendor/holder.min.js"></script>
+</body>
+
+
+</html>
+@if (TempData["AlertMessage"] != null)
+{
+ 
+    <script>
+        alert("Kayıt sırasında Hata Meydana Geldi.");
+    </script>
+}
+
+

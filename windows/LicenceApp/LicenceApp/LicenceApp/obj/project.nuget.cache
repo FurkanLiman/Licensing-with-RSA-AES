@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "RDPO0xAVcCw=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Stajyer2\\Desktop\\Software Licensing\\LicenceApp\\LicenceApp\\LicenceApp\\LicenceApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Stajyer2\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\Stajyer2\\.nuget\\packages\\system.codedom\\8.0.0\\system.codedom.8.0.0.nupkg.sha512",
+    "C:\\Users\\Stajyer2\\.nuget\\packages\\system.diagnostics.eventlog\\8.0.0\\system.diagnostics.eventlog.8.0.0.nupkg.sha512",
+    "C:\\Users\\Stajyer2\\.nuget\\packages\\system.management\\8.0.0\\system.management.8.0.0.nupkg.sha512",
+    "C:\\Users\\Stajyer2\\.nuget\\packages\\system.security.cryptography.protecteddata\\8.0.0\\system.security.cryptography.protecteddata.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

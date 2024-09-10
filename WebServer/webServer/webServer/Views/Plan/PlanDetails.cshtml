@@ -1,0 +1,153 @@
+﻿@model LicenseApplication.Models.LicensePlans
+@addTagHelper *, Microsoft.AspNetCore.Mvc.Taghelpers
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+
+    <link rel="stylesheet" href="/fonts/icomoon/style.css">
+
+    <link rel="stylesheet" href="/css/owl.carousel.min.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    <!-- Style -->
+    <link rel="stylesheet" href="~/css/style.css">
+
+</head>
+<body class="hero img-fluid" style="background-image: url('https://images.pexels.com/photos/39389/keyboard-key-success-online-39389.jpeg');">
+
+
+
+
+
+ 
+    <header class="site-navbar " role="banner" style="margin-left:15%">
+
+        <div class="container">
+            <div class="row align-items-center">
+
+                <div class="col-11 col-xl-2">
+                    <h1 class="mb-0 site-logo"><a asp-action="Index" asp-controller="Home" class="text-white mb-0">Lisans Hizmetlerimiz</a></h1>
+                </div>
+                <div class="col-12 col-xs-1 col-md-10 d-xl-block">
+                    <nav class="site-navigation position-relative text-right" role="navigation">
+
+                        <ul class="site-menu js-clone-nav mr-auto d-none d-lg-block">
+                            <li class="active"><a asp-action="Index" asp-controller="Home"><span>Anasayfa</span></a></li>
+                            <li><a asp-action="Products" asp-controller="plan"><span>Lisans Planları</span></a></li>
+                            <li><a asp-action="Index" asp-controller="Aboutus"><span>Hakkımızda</span></a></li>
+                            <li><a asp-action="Index" asp-controller="Profile"><span><img style="max-height:30px" src="/profile.png" /><b> @User.Claims.ToList()[1].Value.ToString()</b></span></a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+
+                <div class="d-inline-block d-xl-none ml-md-0 mr-auto py-3" style="position: relative; top: 3px;"><a href="#" class="site-menu-toggle js-menu-toggle text-white"><span class="icon-menu h3"></span></a></div>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+<main role="main" style="padding-top:10%">
+    @*<section class="vh-100" style="background-color:#DBCFBB;min-width:fit-content;max-height:fit-content">*@
+    <div class="container py-5 h-200" >
+        <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col col-xl-10">
+                <div class="card" style="border-radius: 1rem;">
+                    <form method="get">
+                    <div class="row g-0">
+
+                        <div class="col-md-6 col-lg-5 d-none d-md-block">
+                            
+                        </div>
+                        <div class="col-md-6 col-lg-7 d-flex align-items-center">
+                            <div class="card-body p-4 p-lg-5 text-black">
+
+                   
+                                    <div class="d-flex align-items-center mb-3 pb-1">                       
+                                        <i class="fas fa-cubes fa-2x me-3" style="color: #ff6219;"></i>
+                                        <span class="h1 fw-bold mb-0">@Model.PlanName</span>
+                                    </div>
+
+                                    <h5 class="fw-normal mb-3 pb-3" style="letter-spacing: 1px;" >@Model.Description</h5>
+
+                                    <div class="form-outline mb-4">
+                                        <p class="fw-normal mb-3 pb-3" style="letter-spacing: 1px;">@Model.Price</p>
+                                    </div>
+                                        @*<div class="pt-1 mb-4">
+                                        <button class="btn btn-dark btn-lg btn-block" type="submit" >Giriş Yap</button>
+                                        </div>*@
+                                    
+                            </div>
+                        </div>
+                        
+                        <div class="form-outline mb-4 border" style="border:medium;border-block:solid;border-color:darkgrey;border-radius:5px;padding:5%">
+                                   
+                        </div>
+                    </div>
+                    </form>
+                    <div class="form-outline mb-4 border" style="border:medium;border-block:solid;border-color:darkgrey;border-radius:5px;padding:3% 3% 3% 3%">
+                        <form asp-action="planDetails" asp-controller="plan" method="post">
+                                <div class="row mx-sm-3 mb-2">
+                                    <div class="col-8">
+                                        <input type="text"  name="comment" class="form-control "  placeholder="Yorumunuzu Yazınız..." />
+                                    </div>    
+                                    <div class="col-4">
+                                        <button name="id" value="@Model.LicensePlansId" class="btn btn-primary ">Gönder</button>
+                                    </div>
+                                </div>
+                            @*<input type="text" class="form-control" name="comment" style="min-width:fit-content" placeholder="Yorumunuzu yazınız..." />
+                            <button name="id" value="@Model.Id" class="btn btn-sm btn-outline-secondary">Gönder</button>*@
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</main>
+
+  <footer class="text-muted">
+        <div class="container">
+            <p class="float-right">
+                <a href="#">Sayfa başına dön</a>
+            </p>
+            </div>
+    </footer>
+
+
+@*</section>*@
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="../../assets/js/vendor/popper.min.js"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <script src="../../assets/js/vendor/holder.min.js"></script>
+</body>
+</html>
+
+@*
+DETAYLARA HOJGELDİN
+<form  method="get">
+    <h2>@Model.Id</h2>
+    <h2>@Model.Name</h2>
+    <h2>@Model.Brand</h2>
+    <h1> yorumlar</h1>
+    @foreach(var comments in Model.Comments)
+    {    
+    <h2>@comments</h2>
+    }
+</form>
+<form asp-action="planDetails" asp-controller="plan" method="post">
+    <input type="text" name="comment" placeholder="Yorumunuzu yazınız..."/>
+    <button name="id" value="@Model.Id" >Gönder</button>
+</form>*@

@@ -1,0 +1,135 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Stajyer2\\Desktop\\Software Licensing\\LicenceApp\\LicenceApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ADC194B2-A1D7-4BD5-A4BC-730ABB4B277A}|LicenceApp\\LicenceApp.csproj|c:\\users\\stajyer2\\desktop\\software licensing\\licenceapp\\licenceapp\\licenceapp\\rtctimer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADC194B2-A1D7-4BD5-A4BC-730ABB4B277A}|LicenceApp\\LicenceApp.csproj|solutionrelative:licenceapp\\rtctimer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADC194B2-A1D7-4BD5-A4BC-730ABB4B277A}|LicenceApp\\LicenceApp.csproj|c:\\users\\stajyer2\\desktop\\software licensing\\licenceapp\\licenceapp\\licenceapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADC194B2-A1D7-4BD5-A4BC-730ABB4B277A}|LicenceApp\\LicenceApp.csproj|solutionrelative:licenceapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADC194B2-A1D7-4BD5-A4BC-730ABB4B277A}|LicenceApp\\LicenceApp.csproj|c:\\users\\stajyer2\\desktop\\software licensing\\licenceapp\\licenceapp\\licenceapp\\filemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADC194B2-A1D7-4BD5-A4BC-730ABB4B277A}|LicenceApp\\LicenceApp.csproj|solutionrelative:licenceapp\\filemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADC194B2-A1D7-4BD5-A4BC-730ABB4B277A}|LicenceApp\\LicenceApp.csproj|c:\\users\\stajyer2\\desktop\\software licensing\\licenceapp\\licenceapp\\licenceapp\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADC194B2-A1D7-4BD5-A4BC-730ABB4B277A}|LicenceApp\\LicenceApp.csproj|solutionrelative:licenceapp\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADC194B2-A1D7-4BD5-A4BC-730ABB4B277A}|LicenceApp\\LicenceApp.csproj|c:\\users\\stajyer2\\desktop\\software licensing\\licenceapp\\licenceapp\\licenceapp\\rsaencryption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADC194B2-A1D7-4BD5-A4BC-730ABB4B277A}|LicenceApp\\LicenceApp.csproj|solutionrelative:licenceapp\\rsaencryption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADC194B2-A1D7-4BD5-A4BC-730ABB4B277A}|LicenceApp\\LicenceApp.csproj|c:\\users\\stajyer2\\desktop\\software licensing\\licenceapp\\licenceapp\\licenceapp\\deviceinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADC194B2-A1D7-4BD5-A4BC-730ABB4B277A}|LicenceApp\\LicenceApp.csproj|solutionrelative:licenceapp\\deviceinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADC194B2-A1D7-4BD5-A4BC-730ABB4B277A}|LicenceApp\\LicenceApp.csproj|c:\\users\\stajyer2\\desktop\\software licensing\\licenceapp\\licenceapp\\licenceapp\\aescontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADC194B2-A1D7-4BD5-A4BC-730ABB4B277A}|LicenceApp\\LicenceApp.csproj|solutionrelative:licenceapp\\aescontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Stajyer2\\Desktop\\Software Licensing\\LicenceApp\\LicenceApp\\LicenceApp\\Program.cs",
+              "RelativeDocumentMoniker": "LicenceApp\\Program.cs",
+              "ToolTip": "C:\\Users\\Stajyer2\\Desktop\\Software Licensing\\LicenceApp\\LicenceApp\\LicenceApp\\Program.cs",
+              "RelativeToolTip": "LicenceApp\\Program.cs",
+              "ViewState": "AgIAAKYAAAAAAAAAAAAswGUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T05:49:40.105Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AESControl.cs",
+              "DocumentMoniker": "C:\\Users\\Stajyer2\\Desktop\\Software Licensing\\LicenceApp\\LicenceApp\\LicenceApp\\AESControl.cs",
+              "RelativeDocumentMoniker": "LicenceApp\\AESControl.cs",
+              "ToolTip": "C:\\Users\\Stajyer2\\Desktop\\Software Licensing\\LicenceApp\\LicenceApp\\LicenceApp\\AESControl.cs",
+              "RelativeToolTip": "LicenceApp\\AESControl.cs",
+              "ViewState": "AgIAACUBAAAAAAAAAAAAAD4BAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T06:47:36.512Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RTCTimer.cs",
+              "DocumentMoniker": "C:\\Users\\Stajyer2\\Desktop\\Software Licensing\\LicenceApp\\LicenceApp\\LicenceApp\\RTCTimer.cs",
+              "RelativeDocumentMoniker": "LicenceApp\\RTCTimer.cs",
+              "ToolTip": "C:\\Users\\Stajyer2\\Desktop\\Software Licensing\\LicenceApp\\LicenceApp\\LicenceApp\\RTCTimer.cs",
+              "RelativeToolTip": "LicenceApp\\RTCTimer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T09:56:14.412Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Logger.cs",
+              "DocumentMoniker": "C:\\Users\\Stajyer2\\Desktop\\Software Licensing\\LicenceApp\\LicenceApp\\LicenceApp\\Logger.cs",
+              "RelativeDocumentMoniker": "LicenceApp\\Logger.cs",
+              "ToolTip": "C:\\Users\\Stajyer2\\Desktop\\Software Licensing\\LicenceApp\\LicenceApp\\LicenceApp\\Logger.cs",
+              "RelativeToolTip": "LicenceApp\\Logger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T06:48:23.035Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FileManager.cs",
+              "DocumentMoniker": "C:\\Users\\Stajyer2\\Desktop\\Software Licensing\\LicenceApp\\LicenceApp\\LicenceApp\\FileManager.cs",
+              "RelativeDocumentMoniker": "LicenceApp\\FileManager.cs",
+              "ToolTip": "C:\\Users\\Stajyer2\\Desktop\\Software Licensing\\LicenceApp\\LicenceApp\\LicenceApp\\FileManager.cs",
+              "RelativeToolTip": "LicenceApp\\FileManager.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAkwB0AAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T06:48:21.257Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RsaEncryption.cs",
+              "DocumentMoniker": "C:\\Users\\Stajyer2\\Desktop\\Software Licensing\\LicenceApp\\LicenceApp\\LicenceApp\\RsaEncryption.cs",
+              "RelativeDocumentMoniker": "LicenceApp\\RsaEncryption.cs",
+              "ToolTip": "C:\\Users\\Stajyer2\\Desktop\\Software Licensing\\LicenceApp\\LicenceApp\\LicenceApp\\RsaEncryption.cs",
+              "RelativeToolTip": "LicenceApp\\RsaEncryption.cs",
+              "ViewState": "AgIAAHoAAAAAAAAAAAAAAJMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T06:42:40.553Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DeviceInfo.cs",
+              "DocumentMoniker": "C:\\Users\\Stajyer2\\Desktop\\Software Licensing\\LicenceApp\\LicenceApp\\LicenceApp\\DeviceInfo.cs",
+              "RelativeDocumentMoniker": "LicenceApp\\DeviceInfo.cs",
+              "ToolTip": "C:\\Users\\Stajyer2\\Desktop\\Software Licensing\\LicenceApp\\LicenceApp\\LicenceApp\\DeviceInfo.cs",
+              "RelativeToolTip": "LicenceApp\\DeviceInfo.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAAAFkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T09:56:17.343Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
