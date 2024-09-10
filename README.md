@@ -206,4 +206,4 @@ Bu yapılandırma dosyası, veritabanı bağlantıları, API anahtarları ve ort
 - .NET 6.0+
 
 
-![SQL Table](Software/Design/DB/sql.jpg)
+![SQL Table](/DB/sql.jpg)
