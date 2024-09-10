@@ -1,7 +1,7 @@
 ﻿# Licensing-with-RSA-AES
 
 ## Proje Açıklaması
-LicenceApp, Oreltek Teknolojileri yazılımları lisanslarını güvenli bir şekilde kurmak ve kontrol etmek amacıyla geliştirilmiş bir .NET Core projesidir. AES ve RSA şifrelemeleri kullanarak lisans verilerini korur ve her cihazın benzersiz bir lisansa sahip olmasını sağlar. Cihaz sistem zamanını düzenli aralıklarla kontrol ederek sistemde yaşanabilecek olası zaman manipülasyonlarını önler.
+LicenceApp, çeşitli yazılımların lisanslarını güvenli bir şekilde kurmak ve kontrol etmek amacıyla geliştirilmiş bir .NET Core projesidir. AES ve RSA şifrelemeleri kullanarak lisans verilerini korur ve her cihazın benzersiz bir lisansa sahip olmasını sağlar. Cihaz sistem zamanını düzenli aralıklarla kontrol ederek sistemde yaşanabilecek olası zaman manipülasyonlarını önler.
 
 ## Özellikler
 - Cihaz bilgilerini ve lisansı yönetmek için AES şifreleme.
